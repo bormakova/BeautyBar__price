@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeautyBar Эта страничка сейчас не работает...</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+</head>
+<body>
+    <!-- ШАПКА -->
+    <header class="header-menu container">
+       
+        <div class="top-menu d-flex">
+            <div class="top-menu__contacts">
+                <p>Нижний Новгород, ул. Бурденко, 33</p>
+                <p class="top-menu__p">+7 (966) 018 - 01 - 89</p>
+            </div>
+            <div class="icons--prop"> <!-- убрать иконки в бургер -->
+                <a href="#"><img src="images/VK Circled.svg" alt=""></a>
+                <a href="#"><img src="images/Viber.svg" alt=""></a>
+                <a href="#"><img src="images/WhatsApp.svg" alt=""></a>
+            </div>      
+        </div>
+        <div class="mein-menu">
+            <a href="#"><img class="logo" src="images/logo.svg" alt=""></a>
+            <!-- возможно лучше сделать через класс button -->
+                <a class="mein-menu__toggle" href="#">
+                    <img class="hamburger--activ" src="images/burger-purple.svg" alt="">
+                </a>
+              
+            <div class="mein-menu--burger">
+                <nav class="mein-menu__nav">
+                    <ul class="mein-menu-list d-flex flex-sb">
+                        <li><a class="list--prop" href="#">Услуги</a></li>
+                        <li><a class="list--prop" href="#">О нас</a></li>
+                        <li><a class="list--prop" href="#">Курсы</a></li>
+                        <li><a class="list--prop" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <!-- -->
+                <form action="#" target="_blank">
+                    <button class="btn btn--activ">Записаться</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <section class="error container">
+        <div class="error--prop">
+            <h1><span class="error__text--prop">Эта страничка сейчас не<br>работает...</span></h1>
+            <img src="images/404.svg" alt="">
+            <div class="error__description">
+                <p>Зато наш салон красоты работает для вас ♥</p>
+                <p>Переходите на <span><a href="#">Главную →→</a></span></p>
+            </div>
+        </div>
+    </section>
+   
+</body>
+</html>
